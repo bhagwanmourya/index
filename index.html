@@ -1,0 +1,542 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Portfolio Bhagwan Mourya
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Inter', sans-serif;
+    }
+    /* Custom styles for timeline */
+    .timeline-container {
+      position: relative;
+      padding-left: 5rem;
+    }
+    .timeline-line {
+      position: absolute;
+      top: 1.25rem; /* vertically center with dots */
+      left: 3rem;
+      width: 2px;
+      height: calc(100% - 2.5rem);
+      background: repeating-linear-gradient(
+        to bottom,
+        #3b82f6,
+        #3b82f6 4px,
+        transparent 4px,
+        transparent 8px
+      );
+      z-index: 0;
+    }
+    .timeline-item {
+      position: relative;
+      padding-left: 1.5rem;
+      margin-bottom: 5rem;
+    }
+    .timeline-item:last-child {
+      margin-bottom: 0;
+    }
+    .timeline-dot {
+      position: absolute;
+      left: 3rem;
+      top: 1.25rem;
+      width: 12px;
+      height: 12px;
+      background-color: white;
+      border: 3px solid #3b82f6; /* blue-600 */
+      border-radius: 9999px;
+      z-index: 10;
+      transform: translateY(-50%);
+    }
+    .timeline-year {
+      position: absolute;
+      left: 0;
+      top: 1.25rem;
+      font-size: 0.875rem; /* text-sm */
+      font-weight: 600;
+      color: #2563eb; /* blue-700 */
+      width: 3rem;
+      text-align: right;
+      user-select: none;
+      transform: translateY(-50%);
+      z-index: 20;
+    }
+  </style>
+ </head>
+ <body class="bg-[#e6f0ff] relative overflow-x-hidden text-gray-900">
+  <img alt="decorative grid pattern with blue squares on a light background" class="pointer-events-none select-none absolute top-0 left-0 w-full h-full opacity-10" height="24" src="https://storage.googleapis.com/a1aa/image/098ff848-32d7-4489-1809-c1213caedb4a.jpg" width="24"/>
+  <header class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex justify-between items-center text-sm text-gray-700">
+   <div class="flex items-center space-x-1 font-sans text-base">
+    <span class="text-blue-600 font-bold cursor-default select-none text-4xl sm:text-5xl">
+     Portfolio
+    </span>
+   </div>
+   <nav class="flex space-x-6 items-center text-gray-700 font-sans">
+    <a class="bg-blue-400 text-white px-3 py-1 rounded-md text-xs font-semibold select-none" href="Day1.html.html">
+     Home
+    </a>
+    <a class="hover:text-gray-900 cursor-pointer select-none text-xs" href="day8.html">
+     Shop
+    </a>
+    <a class="flex items-center space-x-1 hover:text-gray-900 cursor-pointer select-none text-xs" href="Day7.html">
+     <i class="far fa-calendar-alt text-xs">
+     </i>
+     <span>
+      Days
+     </span>
+    </a>
+    <a class="hover:text-gray-900 cursor-pointer select-none text-xs" href="nextpage.html">
+     Contact
+    </a>
+   </nav>
+  </header>
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 space-y-20">
+   <!-- Introduction Section -->
+   <section class="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-10">
+    <div class="max-w-xl flex flex-col space-y-3">
+     <h1 class="text-3xl sm:text-4xl font-extrabold leading-tight text-gray-900">
+      Hi, I'm
+      <br/>
+      <span class="text-blue-600 font-extrabold text-4xl sm:text-5xl">
+       Bhagwan_Mourya
+      </span>
+     </h1>
+     <h2 class="text-gray-700 font-normal text-lg">
+      Software Engineer
+     </h2>
+     <p class="text-gray-500 text-xs sm:text-sm leading-tight">
+      I'm a passionate software engineer with a love for building innovative
+          solutions to complex problems. My journey in tech started when I was
+          19, and I've been coding ever since. I'm currently pursuing a B.Tech in
+          Computer Science and Engineering at St John College of Engineering,
+          Palghar. I completed my junior college education at H.D. Save College
+          of Science and Commerce.
+     </p>
+     <div class="flex flex-wrap gap-3 mt-4">
+      <a class="bg-blue-600 text-white text-xs font-semibold px-4 py-2 rounded-md select-none hover:bg-blue-700 transition inline-block text-center" href="nextpage.html">
+       Get In Touch
+      </a>
+      <a class="border border-blue-600 text-blue-600 text-xs font-semibold px-4 py-2 rounded-md select-none hover:bg-blue-50 transition inline-block text-center" href="nextpage.html">
+       Learn More
+      </a>
+      <a class="flex items-center space-x-2 border border-gray-300 text-gray-700 text-xs font-normal px-3 py-2 rounded-md select-none hover:bg-gray-100 transition" href="nextpage.html">
+       <i class="far fa-calendar-check text-sm">
+       </i>
+       <span>
+        Daily Progress
+       </span>
+      </a>
+     </div>
+    </div>
+    <div class="flex-shrink-0">
+     <img alt="Portrait of Bhagwan Mourya wearing a beige suit standing in front of green leafy plants" class="rounded-full border-2 border-white shadow-lg w-48 h-48 object-cover" height="200" src="https://i.ibb.co/jvz2zV9D/Whats-App-Image-2025-05-22-at-9-11-13-PM.jpg" width="200"/>
+    </div>
+   </section>
+   <!-- Video Introduction Section -->
+   <section class="max-w-3xl mx-auto text-center">
+    <h3 class="font-semibold text-lg mb-4 select-none">
+     Watch My Introduction
+    </h3>
+    <div class="w-full max-w-4xl mx-auto rounded-md overflow-hidden shadow-lg border border-gray-300">
+     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="w-full h-[360px]" frameborder="0" src="https://www.youtube.com/embed/tQ8qFg7O-iU" title="MY FIRST VLOG | my first video on YouTube | isn_vloger">
+     </iframe>
+    </div>
+    <p class="text-gray-500 text-xs mt-3 select-none">
+     Watch this short introduction to learn more about my background, skills,
+        and approach to development.
+    </p>
+   </section>
+   <!-- About Me Section -->
+   <section class="bg-[#f7faff] text-[#1a1a1a] rounded-md p-8 max-w-7xl mx-auto">
+    <section class="text-center mb-8">
+     <h1 class="font-semibold text-xl md:text-2xl mb-8 border-b-4 border-blue-500 inline-block pb-1">
+      About Me
+     </h1>
+    </section>
+    <div class="flex flex-col md:flex-row md:space-x-16">
+     <!-- Left side -->
+     <div class="flex flex-col items-center md:items-start md:w-1/3 space-y-4 mb-10 md:mb-0">
+      <img alt="Portrait of Bhagwan Mourya wearing casual clothes, smiling" class="rounded-full w-[150px] h-[150px] object-cover" height="200" src="https://i.ibb.co/jvz2zV9D/Whats-App-Image-2025-05-22-at-9-11-13-PM.jpg" width="200"/>
+      <div class="text-center md:text-left">
+       <h3 class="font-semibold text-base md:text-lg">
+        Bhagwan_Mourya
+       </h3>
+       <a class="text-xs md:text-sm text-blue-600 hover:underline block font-medium" href="#">
+        Software Engineer
+       </a>
+       <p class="text-[10px] md:text-xs text-gray-600">
+        Boisar, Maharashtra (401501)
+       </p>
+      </div>
+      <p class="text-[10px] md:text-xs text-gray-600 max-w-[280px] md:max-w-[300px]">
+       I'm a passionate software engineer with a love for building innovative solutions to complex problems. My journey in tech started when I was 19, and I've been coding ever since. I'm currently pursuing a B.Tech in Computer Science and Engineering at St John College of Engineering, Palghar. I completed my junior college education at H.D. Save College of Science and Commerce.
+      </p>
+      <div class="w-full max-w-[300px]">
+       <h4 class="font-semibold text-sm md:text-base mb-2">
+        Education
+       </h4>
+       <div class="border-l-2 border-blue-500 pl-3 space-y-4 text-[10px] md:text-xs text-gray-700">
+        <div>
+         <p class="font-semibold text-[11px] md:text-sm leading-tight">
+          B.Tech, Computer Science and Engineering
+         </p>
+         <p>
+          St John College of Engineering, Palghar
+         </p>
+         <p class="text-gray-500">
+          Current
+         </p>
+        </div>
+        <div>
+         <p class="font-semibold text-[11px] md:text-sm leading-tight">
+          Junior College
+         </p>
+         <p>
+          H.D. Save College of Science and Commerce
+         </p>
+         <p class="text-gray-500">
+          Completed
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <!-- Right side -->
+     <div class="md:w-2/3 space-y-8">
+      <div>
+       <h4 class="font-semibold text-sm md:text-base mb-4">
+        Professional Skills
+       </h4>
+       <div class="space-y-4 max-w-md">
+        <!-- Skills -->
+        <div>
+         <div class="flex justify-between text-xs md:text-sm mb-1 text-gray-800">
+          <span>
+           Hindi
+          </span>
+          <span>
+           95%
+          </span>
+         </div>
+         <div class="w-full bg-[#dbeafe] rounded h-2">
+          <div class="bg-blue-600 h-2 rounded" style="width: 95%">
+          </div>
+         </div>
+        </div>
+        <div>
+         <div class="flex justify-between text-xs md:text-sm mb-1 text-gray-800">
+          <span>
+           English
+          </span>
+          <span>
+           90%
+          </span>
+         </div>
+         <div class="w-full bg-[#dbeafe] rounded h-2">
+          <div class="bg-blue-600 h-2 rounded" style="width: 90%">
+          </div>
+         </div>
+        </div>
+        <div>
+         <div class="flex justify-between text-xs md:text-sm mb-1 text-gray-800">
+          <span>
+           Marathi
+          </span>
+          <span>
+           85%
+          </span>
+         </div>
+         <div class="w-full bg-[#dbeafe] rounded h-2">
+          <div class="bg-blue-600 h-2 rounded" style="width: 85%">
+          </div>
+         </div>
+        </div>
+        <div>
+         <div class="flex justify-between text-xs md:text-sm mb-1 text-gray-800">
+          <span>
+           Bhojpuri
+          </span>
+          <span>
+           95%
+          </span>
+         </div>
+         <div class="w-full bg-[#dbeafe] rounded h-2">
+          <div class="bg-blue-600 h-2 rounded" style="width: 95%">
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-- Languages -->
+      <div class="max-w-md bg-white rounded-md border border-gray-200 p-4 shadow-sm">
+       <h4 class="font-semibold text-sm md:text-base mb-3">
+        Languages I Speak
+       </h4>
+       <ul class="space-y-2 text-xs md:text-sm text-gray-700">
+        <li class="flex items-center space-x-2">
+         <span class="bg-blue-300 text-blue-800 rounded px-2 py-0.5 font-medium">
+          Hindi
+         </span>
+         <span>
+          Native
+         </span>
+        </li>
+        <li class="flex items-center space-x-2">
+         <span class="bg-blue-300 text-blue-800 rounded px-2 py-0.5 font-medium">
+          English
+         </span>
+         <span>
+          Fluent
+         </span>
+        </li>
+        <li class="flex items-center space-x-2">
+         <span class="bg-blue-300 text-blue-800 rounded px-2 py-0.5 font-medium">
+          Marathi
+         </span>
+         <span>
+          Fluent
+         </span>
+        </li>
+        <li class="flex items-center space-x-2">
+         <span class="bg-blue-300 text-blue-800 rounded px-2 py-0.5 font-medium">
+          Bhojpuri
+         </span>
+         <span>
+          Native
+         </span>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Personal Side Section with Tabs -->
+   <section class="bg-[#f0f4f9] py-10 px-4 rounded-md max-w-7xl mx-auto">
+    <h2 class="text-center font-semibold text-base sm:text-lg md:text-xl lg:text-2xl mb-2 text-[#1a1a1a]">
+     Personal Side
+    </h2>
+    <div class="w-16 h-1 bg-[#007bff] mx-auto mb-8 rounded">
+    </div>
+    <nav class="flex justify-center space-x-6 mb-10 text-xs font-medium select-none" id="tabs">
+     <button class="tab-btn bg-white border border-[#d9e2ec] rounded-md px-4 py-1 text-[#1a1a1a] shadow-sm" data-tab="hobbies">
+      Hobbies
+     </button>
+     <button class="tab-btn hover:text-[#007bff]" data-tab="books">
+      Favorite Books
+     </button>
+     <button class="tab-btn hover:text-[#007bff]" data-tab="sites">
+      Favorite Sites
+     </button>
+     <button class="tab-btn hover:text-[#007bff]" data-tab="volunteering">
+      Volunteering
+     </button>
+    </nav>
+    <div class="max-w-6xl mx-auto" id="tab-contents">
+
+          <!-- Hobbies content -->
+     <div class="tab-content grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6" id="hobbies">
+      <div class="bg-white border border-[#d9e2ec] rounded-md p-6 text-center">
+       <div class="mx-auto mb-3 w-10 h-10 rounded-full bg-[#d9eefa] flex items-center justify-center text-[#007bff]">
+        <i class="fas fa-camera">
+        </i>
+       </div>
+       <h3 class="font-semibold text-sm mb-1 text-[#1a1a1a]">
+        Photography
+       </h3>
+       <p class="text-xs text-[#6b7280] leading-tight">
+        Capturing landscapes and street photography
+       </p>
+      </div>
+      <div class="bg-white border border-[#d9e2ec] rounded-md p-6 text-center">
+       <div class="mx-auto mb-3 w-10 h-10 rounded-full bg-[#d9eefa] flex items-center justify-center text-[#007bff]">
+        <i class="fas fa-mountain">
+        </i>
+       </div>
+       <h3 class="font-semibold text-sm mb-1 text-[#1a1a1a]">
+        Hiking
+       </h3>
+       <p class="text-xs text-[#6b7280] leading-tight">
+        Exploring trails and mountains around the world
+       </p>
+      </div>
+      <div class="bg-white border border-[#d9e2ec] rounded-md p-6 text-center">
+       <div class="mx-auto mb-3 w-10 h-10 rounded-full bg-[#d9eefa] flex items-center justify-center text-[#007bff]">
+        <i class="fas fa-book-open">
+        </i>
+       </div>
+       <h3 class="font-semibold text-sm mb-1 text-[#1a1a1a]">
+        Reading
+       </h3>
+       <p class="text-xs text-[#6b7280] leading-tight">
+        Science fiction and technology books
+       </p>
+      </div>
+      <div class="bg-white border border-[#d9e2ec] rounded-md p-6 text-center">
+       <div class="mx-auto mb-3 w-10 h-10 rounded-full bg-[#d9eefa] flex items-center justify-center text-[#007bff]">
+        <i class="fas fa-utensils">
+        </i>
+       </div>
+       <h3 class="font-semibold text-sm mb-1 text-[#1a1a1a]">
+        Cooking
+       </h3>
+       <p class="text-xs text-[#6b7280] leading-tight">
+        Experimenting with international cuisines
+       </p>
+      </div>
+     </div>
+     <!-- Favorite Books content -->
+     <div class="tab-content hidden" id="books">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+       <div class="bg-white rounded-lg p-6 shadow-sm">
+        <h3 class="font-semibold text-black mb-1">
+         Clean Code
+        </h3>
+        <a class="text-blue-600 text-sm mb-3 inline-block" href="#">
+         by Robert C. Martin
+        </a>
+        <p class="text-[#4a4a4a] text-sm leading-relaxed">
+         A handbook of agile software craftsmanship
+        </p>
+       </div>
+       <div class="bg-white rounded-lg p-6 shadow-sm">
+        <h3 class="font-semibold text-black mb-1">
+         Dune
+        </h3>
+        <a class="text-blue-600 text-sm mb-3 inline-block" href="#">
+         by Frank Herbert
+        </a>
+        <p class="text-[#4a4a4a] text-sm leading-relaxed">
+         Classic science fiction epic
+        </p>
+       </div>
+       <div class="bg-white rounded-lg p-6 shadow-sm">
+        <h3 class="font-semibold text-black mb-1">
+         Thinking, Fast and Slow
+        </h3>
+        <a class="text-blue-600 text-sm mb-3 inline-block" href="#">
+         by Daniel Kahneman
+        </a>
+        <p class="text-[#4a4a4a] text-sm leading-relaxed">
+         Exploration of the two systems that drive how we think
+        </p>
+       </div>
+      </div>
+     </div>
+     <!-- Favorite Sites content -->
+     <div class="tab-content hidden" id="sites">
+      <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+       <article class="border border-[#e2e8f0] rounded-md p-5 bg-white shadow-sm">
+        <h3 class="font-semibold text-base flex items-center justify-between">
+         GitHub
+         <a aria-label="Open GitHub in new tab" class="text-[#2563eb] hover:text-[#1e40af]" href="https://github.com" rel="noopener noreferrer" target="_blank">
+          <i class="fas fa-external-link-alt">
+          </i>
+         </a>
+        </h3>
+        <p class="mt-2 text-[#475569] text-sm leading-relaxed">
+         Platform for code collaboration and version control
+        </p>
+       </article>
+       <article class="border border-[#e2e8f0] rounded-md p-5 bg-white shadow-sm">
+        <h3 class="font-semibold text-base flex items-center justify-between">
+         Stack Overflow
+         <a aria-label="Open Stack Overflow in new tab" class="text-[#2563eb] hover:text-[#1e40af]" href="https://stackoverflow.com" rel="noopener noreferrer" target="_blank">
+          <i class="fas fa-external-link-alt">
+          </i>
+         </a>
+        </h3>
+        <p class="mt-2 text-[#475569] text-sm leading-relaxed">
+         Developer community for solving coding problems
+        </p>
+       </article>
+       <article class="border border-[#e2e8f0] rounded-md p-5 bg-white shadow-sm">
+        <h3 class="font-semibold text-base flex items-center justify-between">
+         Hacker News
+         <a aria-label="Open Hacker News in new tab" class="text-[#2563eb] hover:text-[#1e40af]" href="https://news.ycombinator.com" rel="noopener noreferrer" target="_blank">
+          <i class="fas fa-external-link-alt">
+          </i>
+         </a>
+        </h3>
+        <p class="mt-2 text-[#475569] text-sm leading-relaxed">
+         News aggregator focusing on computer science and technology
+        </p>
+       </article>
+      </section>
+      <h2 class="font-semibold text-lg mb-4 text-black">
+       Favorite Startups
+      </h2>
+      <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+       <article class="border border-[#e2e8f0] rounded-md p-5 bg-white shadow-sm">
+        <h3 class="font-semibold text-base">
+         Vercel
+        </h3>
+        <p class="mt-2 text-[#475569] text-sm leading-relaxed">
+         Frontend deployment and development platform
+        </p>
+       </article>
+       <article class="border border-[#e2e8f0] rounded-md p-5 bg-white shadow-sm">
+        <h3 class="font-semibold text-base">
+         Figma
+        </h3>
+        <p class="mt-2 text-[#475569] text-sm leading-relaxed">
+         Collaborative design tool
+        </p>
+       </article>
+       <article class="border border-[#e2e8f0] rounded-md p-5 bg-white shadow-sm">
+        <h3 class="font-semibold text-base">
+         Notion
+        </h3>
+        <p class="mt-2 text-[#475569] text-sm leading-relaxed">
+         All-in-one workspace for notes and projects
+        </p>
+       </article>
+      </section>
+     </div>
+     <!-- Volunteering content with Experience Cards -->
+     <div class="tab-content hidden" id="volunteering">
+      <div class="max-w-5xl mx-auto flex flex-col sm:flex-row gap-6 p-6">
+       <div class="flex-1 bg-white border border-[#e2e8f0] rounded-lg shadow-md p-6">
+        <h3 class="font-semibold text-black mb-1">
+         Code for Good
+        </h3>
+        <div class="flex justify-between items-center mb-2">
+         <a class="text-blue-600 font-semibold text-sm leading-none" href="#">
+          Volunteer Developer
+         </a>
+         <span class="text-gray-400 text-xs">
+          2020-Present
+         </span>
+        </div>
+        <p class="text-gray-600 text-sm leading-relaxed">
+         Building web applications for non-profit organizations
+        </p>
+       </div>
+       <div class="flex-1 bg-white border border-[#e2e8f0] rounded-lg shadow-md p-6">
+        <h3 class="font-semibold text-black mb-1">
+         Tech Mentors
+        </h3>
+        <div class="flex justify-between items-center mb-2">
+         <a class="text-blue-600 font-semibold text-sm leading-none" href="#">
+          Mentor
+         </a>
+         <span class="text-gray-400 text-xs">
+          2019-2022
+         </span>
+        </div>
+        <p class="text-gray-600 text-sm leading-relaxed">
+         Mentoring underprivileged students in programming
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <script>
+    
+</body>
+</html>
